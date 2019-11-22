@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--crtl + shift + g encierra en un div -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<link rel="stylesheet" href="css/estilos.css">	
+	<script src="js/jquery.js"></script>
+	<script src="js/cabecera.js"></script>
+	<script src="js/all.js"></script>	
+	<title>PAGINA</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		.formulario {
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<!--BARRA SOCIAL-->
+
+	<div class="social">
+		<ul>
+			<li>
+				<a href="https://m.facebook.com/home.php" class="facebook" target="_blank"><i class="fab fa-facebook-f" style="font-size: 18px;
+				padding: 0px; margin: 0px; width: 18px;"></i></a>
+			</li>
+			<li>
+				<a href="https://mobile.twitter.com/home" class="twitter" target="_blank"><i class="fab fa-twitter" style="font-size: 18px;
+				padding: 0px; margin: 0px; width: 18px;"></i></a>
+			</li>
+			<li>
+				<a href="#" class="google" target="_blank"><i class="fab fa-google-plus-g" style="font-size: 18px;
+				width: 18px;"></i></a>
+			</li>
+			<li>
+				<a href="#" class="pinterest" target="_blank"><i class="fab fa-pinterest-p" style="font-size: 18px;
+				 width: 18px;"></i></a>
+			</li>
+			<li>
+				<a href="mailto:contacto@pagina.com" class="envelope"><i class="fas fa-envelope" style="font-size: 18px; 
+				width: 18px;"></i></a>
+			</li>
+		</ul>
+	</div>
+
+	<!--BARRA SOCIAL-->
+	<main>
+		<header>
+			<div id="cabecera" class="cabecera">
+				<div class="centrarh">
+					<div class="logo">Wall-E</div>
+					<nav>
+						<a href="index.php">Inicio</a>
+					</nav>
+				</div>
+			</div>
+			<div id="contenido-header" class="">
+				<img src="images/uno.jpg" alt="" width="100%">
+			</div>
+		</header>
+		<footer id="reseña">
+			<div class="formulario">
+				<h1>Test de la Pelicula Wall-E</h1>
+				<form action="#" class="" name="cuestionario" id="cuestionario">
+					<div class="form-group row">
+						<label for="inputEmail3" class="col-sm-3 col-form-label">Escribe tu Nombre Completo </label>
+					    <div class="col-sm-9">
+					      <input type="text" class="form-control" id="nombre" placeholder="Digite tu nombre completo">
+				    	</div>
+					</div>
+					<fieldset class="form-group">
+					    <div class="row">
+					      <legend class="col-form-label col-sm-3 pt-0">Wall-E se estreno en :</legend>
+					      <div class="col-sm-9">
+					        <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio1" name="p1" value="1" class="custom-control-input" checked>
+				                <label class="custom-control-label" for="customRadio1">Junio del 2008</label>
+				            </div>
+				            <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio2" name="p1" value="0" class="custom-control-input">
+				                <label class="custom-control-label" for="customRadio2">Mayo del 2019</label>
+				            </div>
+					      </div>
+					    </div>
+					</fieldset>
+					<fieldset class="form-group">
+					    <div class="row">
+					      <legend class="col-form-label col-sm-3 pt-0">Una de las Consecuencias que la Pelicula muestra es </legend>
+					      <div class="col-sm-9">
+					        <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio3" name="p2" value="0" class="custom-control-input" checked>
+				                <label class="custom-control-label" for="customRadio3">El efecto Invernadero y como afecta a nuestro medio ambiente</label>
+				            </div>
+				            <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio4" name="p2" value="1" class="custom-control-input">
+				                <label class="custom-control-label" for="customRadio4">La contaminacion ambiental y como esta inflige en el mundo que vivimos ahora</label>
+				            </div>
+					      </div>
+					    </div>
+					</fieldset>
+					<fieldset class="form-group">
+					    <div class="row">
+					      <legend class="col-form-label col-sm-3 pt-0">En la Pelicula vemos que</legend>
+					      <div class="col-sm-9">
+					        <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio5" name="p3" value="0" class="custom-control-input" checked>
+				                <label class="custom-control-label" for="customRadio5">Tenemos una mejor vida en el espacio que en el planeta Tierra</label>
+				            </div>
+				            <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio6" name="p3" value="1" class="custom-control-input">
+				                <label class="custom-control-label" for="customRadio6">La falta de relacion entre personas nos vuelve muy dependientes a las maquinas</label>
+				            </div>
+					      </div>
+					    </div>
+					</fieldset>
+					<fieldset class="form-group">
+					    <div class="row">
+					      <legend class="col-form-label col-sm-3 pt-0">Al final de la Pelicula Wall-E</legend>
+					      <div class="col-sm-9">
+					        <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio7" name="p4" value="0" class="custom-control-input" checked>
+				                <label class="custom-control-label" for="customRadio7">No consiguio Novia :( </label>
+				            </div>
+				            <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio8" name="p4" value="1" class="custom-control-input">
+				                <label class="custom-control-label" for="customRadio8">Si consiguio Novia ;) </label>
+				            </div>
+					      </div>
+					    </div>
+					</fieldset>
+					<fieldset class="form-group">
+					    <div class="row">
+					      <legend class="col-form-label col-sm-3 pt-0">La mejor mascota de Wall-E era </legend>
+					      <div class="col-sm-9">
+					        <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio9" name="p5" value="0" class="custom-control-input" checked>
+				                <label class="custom-control-label" for="customRadio9">Un perro</label>
+				            </div>
+				            <div class="custom-control custom-radio">
+				                <input type="radio" id="customRadio10" name="p5" value="1" class="custom-control-input">
+				                <label class="custom-control-label" for="customRadio10">Una cucaracha</label>
+				            </div>
+					      </div>
+					    </div>
+					</fieldset>
+					<div class="form-group">
+						<button class="btn btn-success col-5" type="submitt" onclick="verificar()">Enviar</button>
+		            	<button class="btn btn-danger col-5" type="reset">Limpiar</button>
+					</div>
+				</form>
+			</div>
+			<!--FOOTER DE LA PAGINA-->
+			<div class="footer-copy-redes">
+				<div class="main-copy-redes">
+					<div class="footer-copy">
+						&copy; 2019, Todos los derechos reservados - |NIRG| -
+					</div>
+				</div>
+				<div class="footer-redes">
+					<a href="https://m.facebook.com/home.php" ><i class="fab fa-facebook-f"></i></a>
+					<a href="https://mobile.twitter.com/home" ><i class="fab fa-twitter"></i></a>
+					<a href="#" ><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" ><i class="fab fa-pinterest-p"></i></a>
+					<a href="mailto:contacto@pagina.com" ><i class="fas fa-envelope"></i></a>
+				</div>
+			</div>
+			<!--FOOTER DE LA PAGINA-->
+		</footer>
+	</main>
+	<script type="text/javascript">
+		function verificar(){
+			var nombre = document.cuestionario.nombre.value;
+			var p1 = parseInt(document.cuestionario.p1.value);
+			var p2 = parseInt(document.cuestionario.p2.value);
+			var p3 = parseInt(document.cuestionario.p3.value);
+			var p4 = parseInt(document.cuestionario.p3.value);
+			var p5 = parseInt(document.cuestionario.p3.value);
+			total=0;
+			total=total+p1+p2+p3+p4+p5;
+			alert(nombre+" "+"tienes un total de : "+total+" puntos");
+		}
+	</script>
+</body>
+</html>
